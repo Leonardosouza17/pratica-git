@@ -23,3 +23,10 @@ git checkout -b novoBranch
 ~~~
 
 o parâmetro `-b` alterna para ``novoBranch` criando o branch. o mesmo acontece com o comando `git switch` com o parâmetro `-c`.
+
+~~~bash
+git branch -D nomeBranch
+git push --delete origin nomeBranch
+~~~
+
+Para apagar um branch é preciso primeiro apagá-lo localmente (1° comando) e depois  propagar a deleção para o repositório remoto (2° comando).
